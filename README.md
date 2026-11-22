@@ -52,7 +52,8 @@ Tasarım + Test + Paylaşım olmak üzere üç parçadan oluşur.
 
 ## 2. Test: Giriş / Kayıt formu
 
-Trendyol giriş formu için 8 senaryo yazdım, 3'ünü manuel çalıştırıp sonuçları işledim.
+Trendyol giriş formu için 8 senaryo yazdım, 5'ini manuel çalıştırdım: **4 başarılı, 1 başarısız**.
+Bulduğum hata (BUG-01): `@` işareti olmayan e-postada kullanıcıya hiçbir uyarı gösterilmiyor.
 Detaylar: [tests/test-senaryolari.md](tests/test-senaryolari.md)
 
 ## 3. Tasarım: Figma
