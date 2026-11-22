@@ -9,7 +9,7 @@ Tasarım + Test + Paylaşım olmak üzere üç parçadan oluşur.
 | Test | Giriş/Kayıt formu için 8 test senaryosu yazdım | [tests/test-senaryolari.md](tests/test-senaryolari.md) |
 | Tasarım | Figma'da küçük bir giriş ekranı tasarladım | [figma/ekran-tasarimi.md](figma/ekran-tasarimi.md) |
 | İçerik | 1 aylık içerik takvimi + 3 post | [social/](social) |
-| Paylaşım | Final sunumu ve Blog #10 | [sunum/](sunum), [blog/](blog) |
+| Paylaşım | Final sunumu ve Blog #10 | [sunum/](sunum), Blog linki aşağıda |
 
 ## 1. Rakip analizi: Trendyol Giriş / Üye Ol sayfası
 
@@ -96,7 +96,7 @@ Figma linki: _(buraya kendi linkini yapıştır)_
 - 1 aylık içerik takvimi (Aralık 2026): [social/icerik-takvimi.md](social/icerik-takvimi.md)
 - 3 hazır post: [social/postlar.md](social/postlar.md)
 - Sunum: [sunum/sunum-metni.md](sunum/sunum-metni.md)
-- Blog #10: [blog/blog-10.md](blog/blog-10.md)
+- Blog #10: _(yayınladığın blog yazısının linkini buraya yapıştır)_
 
 ## 5. Repo yapısı
 
@@ -107,8 +107,7 @@ junior-yolculugum/
 ├── tests/           # test senaryoları
 ├── figma/           # tasarım notları
 ├── social/          # içerik takvimi ve postlar
-├── sunum/           # final sunumu
-└── blog/            # Blog #10
+└── sunum/           # final sunumu
 ```
 
 ## 6. Sonraki adımım
