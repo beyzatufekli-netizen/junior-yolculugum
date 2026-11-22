@@ -1,40 +1,48 @@
 # Blog #10: 10 Haftalık Junior Yolculuğum
 
-> Taslak. `[köşeli]` yerleri kendi yaşadıklarınla doldur, blog senin sesinle yazılmalı.
+10 haftalık sürecin sonunda, öğrendiklerimi tek bir mini projede birleştirdim: bir rakip siteyi inceledim, bir form için test yazdım, bir ekran tasarladım ve bir marka için içerik hazırladım. Hepsini GitHub'da tek repoda topladım.
 
-10 hafta önce "repo" ve "commit" kelimelerini duyunca biraz çekingen davranıyordum. Bugün bir GitHub reposunda hem analiz hem test hem tasarım hem de sosyal medya içeriğini bir arada tutabiliyorum.
+Bu yazıda yaptıklarımı, beni şaşırtanı, zorlandığım yeri ve sıradaki hedefimi anlatıyorum.
 
 ## Bu 10 haftada ne yaptım?
 
-- **GitHub:** Hesap açtım, ilk repomu oluşturdum, anlamlı commit mesajları yazmayı öğrendim.
-- **DevTools:** Bir rakip sitenin (Trendyol giriş sayfası) Elements ve Network sekmelerini inceledim.
-- **Test:** Bir giriş formu için 8 test senaryosu yazdım.
-- **Figma:** Component ve Auto Layout ile küçük bir ekran tasarladım.
-- **İçerik:** Bir marka için 1 aylık takvim ve 3 post hazırladım.
-- **Sunum:** Hepsini 5-10 dakikalık bir sunumda anlattım.
+- **GitHub:** Hesabımı açtım, repo oluşturdum ve anlamlı commit mesajlarıyla çalışmayı öğrendim.
+- **DevTools:** Trendyol'un giriş sayfasını Elements ve Network sekmeleriyle inceledim.
+- **Test:** Giriş formu için 8 senaryo yazdım, 5'ini çalıştırdım. 4'ü geçti, 1'i kaldı.
+- **Figma:** Bir giriş ekranı tasarladım.
+- **İçerik:** Kurgusal bir kahve markası için 1 aylık içerik takvimi ve 3 post hazırladım.
+- **Sunum:** Hepsini 5-10 dakikalık bir sunumla anlattım.
 
-## En çok şaşırdığım şey
+## En çok şaşırdığım şey: Reklam ve izleme istekleri
 
-[Kendi cümlelerinle yaz. Fikir: "Sadece giriş sayfası bile 93 ağ isteği yapıyormuş. Bir butonun arkasında bu kadar iş olduğunu hiç düşünmemiştim." Eğer bu seni gerçekten şaşırttıysa kullan, yoksa kendi şaşkınlığını yaz.]
+Network sekmesini açtığımda sadece giriş sayfası için onlarca istek gördüm. Benim bir şey yapmama gerek kalmadan sayfa arka planda Google, DoubleClick, TikTok, X (Twitter) ve Facebook gibi servislere küçük istekler gönderiyordu. Yönlendirmeler (302) ve görünmeyen küçük "piksel" resimleri art arda geliyordu.
 
-## En çok zorlandığım şey
+Bir giriş butonunun arkasında bu kadar çok şeyin olduğunu hiç düşünmemiştim. Bir sayfayı açmak, sadece o sayfayı yüklemek demek değilmiş. Aynı anda reklam ve ölçüm servisleri de çalışıyor. Bu, bir tasarımcı ya da test uzmanı olarak performansa ve kullanıcının gizliliğine bakış açımı değiştirdi.
 
-[Örnek: Auto Layout'u ilk başta anlamamak, ya da Git komutları.]
+## Test ederken bulduğum hata
+
+Testlerde `@` işareti olmayan bir e-posta yazınca sayfa hiç uyarı vermedi, buton tepkisiz kaldı. Bu büyük bir sitede bile kullanıcıya net geri bildirim vermenin kolay olmadığını gösterdi. Kendi tasarımımda hata durumunu ayrı bir ekran olarak çizmemin sebebi de bu.
+
+## En çok zorlandığım şey: Git ve push
+
+En çok Git'te zorlandım. Commit'leri atmak kolaydı, ama GitHub'a göndermek (push) beklediğimden zordu. Giriş penceresi, bilgisayardaki kimlik bilgileri ve doğru repo adresi gibi küçük şeyler beni durdurdu. Bir komutu yanlış yazınca hata mesajını okumayı, nerede takıldığımı anlamayı da bu süreçte öğrendim.
+
+Çıkardığım ders: Hata mesajı düşmanım değil, ne yapacağımı söylüyor. Önce onu okuyorum.
 
 ## Bu proje bana ne öğretti?
 
-1. Tasarım, test ve içerik birbirinden bağımsız değil. Rakip analizi tasarımı, tasarım testi besliyor.
-2. Küçük adımlar ve temiz commit geçmişi, büyük işi yönetilebilir yapıyor.
-3. Bir şeyi anlatabiliyorsam öğrenmişim demektir, README ve sunum bu yüzden değerli.
+1. Analiz, tasarım ve test birbirine bağlı. Rakipte gördüğüm bir eksik, kendi tasarımımda neye dikkat edeceğimi söyledi.
+2. Küçük adımlar ve temiz commit geçmişi büyük işi yönetilebilir yapıyor.
+3. Bir şeyi başkasına anlatabiliyorsam öğrenmişim demektir. README ve sunum bu yüzden bu projenin önemli parçaları.
 
 ## Sonraki derinleşme alanım
 
-**Playwright ile test otomasyonu.** Elle yazdığım 8 senaryoyu koda dökmeyi hedefliyorum. Sebebi: testi tekrar tekrar elle çalıştırmak sıkıcı ve hataya açık, otomasyon bu işi benim yerime yapabilir.
+**Playwright ile test otomasyonu.** Elle yazdığım giriş formu senaryolarını koda dökmek istiyorum. Aynı testi her seferinde elle yapmak yavaş ve hataya açık. Otomasyon bunu benim yerime yapabilir ve BUG-01 gibi hataları her güncellemede yakalayabilir.
 
 ## Linkler
 
-- GitHub repo: [link]
+- GitHub repo: https://github.com/beyzatufekli-netizen/junior-yolculugum
 - Figma: [link]
 - Sunum: [link]
 
-Okuduğun için teşekkürler. Sen 10 hafta önce nerede durduğunu hatırlıyor musun?
+Okuduğun için teşekkürler. Sen bu tür bir projede en çok neye şaşırırdın?
