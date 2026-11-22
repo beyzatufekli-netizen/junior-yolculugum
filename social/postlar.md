@@ -1,52 +1,63 @@
 # 3 Post: Görsel + Caption + Hashtag + CTA
 
-Görselleri Canva veya Figma'da 1080 x 1350 px (Instagram 4:5) olarak hazırla.
-Figma'da hazırladığın renk paletini (kahve `#6F4E37`, krem `#FAF6F1`) kullan, marka tutarlı görünsün.
+> Bu postlar **eğitim amaçlı** hazırlanmış örnek çalışmalardır. Resmi Trendyol içeriği değildir, kampanya oranları ve fiyatlar örnek metindir.
+
+Format: Instagram 4:5 (dikey). Her postta marka rengi turuncu, büyük siyah başlık ve tek bir CTA butonu var.
 
 ---
 
-## Post 1: Eğitim (Carousel, 1 Aralık)
+## Post 1: Güven ve teslimat
 
-**Görsel:** 5 slayt. Kapak: krem zemin, büyük kahve rengi başlık "Evde Filtre Kahve: 5 Altın Kural". Her slaytta tek kural ve basit bir ikon.
-1. Taze çekirdek kullan
-2. Kahveyi demlemeden hemen önce öğüt
-3. Su sıcaklığı 92-96°C
-4. 1:16 oranı (1 g kahve, 16 g su)
-5. Filtreyi önceden ıslat
+<img src="img/post-1-teslimat.jpg" alt="Hızlı ve güvenli teslimat kapında" width="360">
+
+**Görsel:** Kapıda gülümseyen bir kurye ile müşteri, turuncu kutular. Başlık: "Hızlı ve güvenli teslimat kapında!". Altta 5 yıldız ve yorum vurgusu.
 
 **Caption:**
-Kahven neden bazen acı, bazen sulu oluyor? Çoğu zaman cevap çekirdekte değil, demleme alışkanlıklarında. ☕
-Bu 5 kuralı uyguladığında farkı ilk fincanda hissedeceksin. Kaydet, sabah demlerken bak.
+Siparişin hazır, kapın çalınmak üzere. 🧡
+Hızlı ve güvenli teslimatla ürünlerin kapına geliyor. Milyonlarca yorumla güvenle alışveriş yap, her siparişte aynı heyecanı yaşa.
 
-**Hashtag:** #filtrekahve #evdekahve #kahveseverler #kahvedemleme #fincanandco
+**Hashtag:** #trendyol #hızlıteslimat #güvenlialışveriş #kapında #alışveriş
 
-**CTA:** 📌 Kaydet ve sabah rutinine ekle!
+**CTA:** 🛒 Alışverişe Başla
 
 ---
 
-## Post 2: Ürün (Tekli görsel, 3 Aralık)
+## Post 2: Kampanya ve indirim
 
-**Görsel:** Buğulu bir cam fincanın yanında kış karışımı çekirdek paketi, arkada yumuşak ışıklı kış penceresi. Üst köşede küçük etiket: "Yeni".
+<img src="img/post-2-sepet-indirimi.jpg" alt="Sepetindekilerin fiyatı düştü" width="360">
+
+**Görsel:** Telefonuna bakıp şaşıran genç bir kadın, etrafında sepet simgeleri ve indirim balonları (%30, %40, %50'ye varan). Başlık: "Sepetindekilerin fiyatı düştü!".
 
 **Caption:**
-Kış geldi, fincanlar ısındı. ❄️☕
-Kış Karışımı: fındık, kakao ve karamel notaları, orta kavrum. Soğuk sabahlar için tasarlandı.
-Sınırlı sayıda üretildi.
+Sepetindeki ürünlerin fiyatı düştü, bunu kaçırma! 😍
+%50'ye varan indirimlerle favori ürünlerin şimdi çok daha uygun. Stoklar tükenmeden sepetini kontrol et.
 
-**Hashtag:** #kışkarışımı #butikkahve #kahveçekirdeği #yenilik #fincanandco
+**Hashtag:** #sepetindirimi #fırsat #indirim #trendyol #stoklartükenmeden
 
-**CTA:** 🛒 Profildeki linkten ilk paketini sipariş ver.
+**CTA:** 👉 Stoklar Tükenmeden Keşfet!
 
 ---
 
-## Post 3: Topluluk (Anket, 5 Aralık)
+## Post 3: Marka bilinirliği ve kategoriler
 
-**Görsel:** Hikaye formatı (1080 x 1920). İki yarıya bölünmüş zemin: solda sütlü latte, sağda sade filtre kahve. Ortada anket çıkartması (Instagram "Anket" sticker'ı).
+<img src="img/post-3-kategoriler.jpg" alt="Hayatın her anında Trendyol" width="360">
 
-**Caption (gönderi olarak paylaşılırsa):**
-Cumartesi sabahı sorusu: Sen hangi takımdasın? 🥛☕
-Sütlü mü, sade mi? Hikayemizde oy ver, yorumlarda nedenini yaz. Sonuçları pazartesi paylaşacağız!
+**Görsel:** Dört karelik kolaj: moda, ev dekorasyonu, kulaklık ve akıllı saat. Ortada "Arayıp da bulamadığın ne varsa!" etiketi ve üç kategori simgesi.
 
-**Hashtag:** #sütlümüsade #kahveanketi #kahvesohbeti #cumartesisabahı #fincanandco
+**Caption:**
+Moda, ev, teknoloji... Hayatın her anında yanında. ✨
+Aradığın ne varsa tek yerde bul. Tüm kategorilerde özel fırsatlar seni bekliyor.
 
-**CTA:** 🗳️ Hikayede oy ver, yorumda nedenini yaz!
+**Hashtag:** #hayatınheranında #trendyol #moda #evdekorasyon #teknoloji
+
+**CTA:** 🔎 Tüm kategorilerde özel fırsatları keşfet
+
+---
+
+## Üç postun ortak kuralı
+
+| Post | Amaç | CTA |
+|---|---|---|
+| 1 | Güven kazanmak | Alışverişe Başla |
+| 2 | Satışı artırmak | Stoklar Tükenmeden Keşfet |
+| 3 | Marka ve kategori bilinirliği | Özel fırsatları keşfet |

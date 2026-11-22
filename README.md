@@ -94,7 +94,13 @@ Figma linki: _(buraya kendi linkini yapıştır)_
 ## 4. İçerik ve paylaşım
 
 - 1 aylık içerik takvimi (Aralık 2026): [social/icerik-takvimi.md](social/icerik-takvimi.md)
-- 3 hazır post: [social/postlar.md](social/postlar.md)
+- 3 hazır post (görsel + caption + hashtag + CTA): [social/postlar.md](social/postlar.md)
+
+<p align="center">
+  <img src="social/img/post-1-teslimat.jpg" alt="Post 1" width="240">
+  <img src="social/img/post-2-sepet-indirimi.jpg" alt="Post 2" width="240">
+  <img src="social/img/post-3-kategoriler.jpg" alt="Post 3" width="240">
+</p>
 - Sunum: [sunum/sunum-metni.md](sunum/sunum-metni.md)
 - Blog #10: _(yayınladığın blog yazısının linkini buraya yapıştır)_
 
