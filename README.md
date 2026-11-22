@@ -83,6 +83,12 @@ Detaylar: [tests/test-senaryolari.md](tests/test-senaryolari.md)
 Component + Auto Layout kullanarak bir giriş ekranı tasarladım.
 Adımlar ve ölçüler: [figma/ekran-tasarimi.md](figma/ekran-tasarimi.md)
 
+<p align="center">
+  <img src="docs/img/figma-giris.webp" alt="Giriş ekranı tasarımı" width="320">
+</p>
+
+Ekranda e-posta ve şifre alanları, "Beni hatırla / Şifremi unuttum" satırı, ana giriş butonu, Facebook ve Google ile giriş seçenekleri ve "Üye ol" bağlantısı yer alıyor.
+
 Figma linki: _(buraya kendi linkini yapıştır)_
 
 ## 4. İçerik ve paylaşım
