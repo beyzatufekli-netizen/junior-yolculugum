@@ -48,7 +48,29 @@ Tasarım + Test + Paylaşım olmak üzere üç parçadan oluşur.
 4. Test: `novalidate` ve özel doğrulama yüzünden hata mesajları tarayıcıya göre değişmiyor. Bu yüzden test senaryolarında net hata metinlerine odaklandım.
 
 > Not: Yukarıdaki bulgular sayfanın o günkü haline aittir, site güncellendikçe değişebilir.
-> Kendi DevTools ekran görüntülerini `docs/img/` klasörüne ekle ve buraya bağla.
+### 1.4 DevTools ekran görüntüleri
+
+**Network sekmesi**
+
+![Trendyol Network sekmesi](docs/img/devtools-network.png)
+
+- Alttaki özet çubuğunda **47 istek, 214 kB aktarım, 766 kB kaynak** görünüyor.
+- Çok sayıda **302 (Redirect)** isteği ve küçük **gif** istekleri (izleme pikselleri) var. Bunlar reklam ve analiz servislerine ait (`google`, `operacom`, `yango`, `fbevents.js` gibi).
+- Kullanıcı bir şey yapmadan bile sayfa arka planda onlarca küçük izleme isteği gönderiyor.
+- En büyük kaynak `fbevents.js` (yaklaşık 178 kB), yani bir reklam/izleme script'i.
+- Sepet ve favori ikonları `svg+xml` olarak ayrı ayrı yükleniyor. Bazıları `304` ile önbellekten geliyor, bu iyi bir pratik.
+- Konsolda 13 hata ve 11 uyarı görünüyor (üstteki sayaçlar).
+
+**Elements sekmesi**
+
+![Trendyol Elements sekmesi](docs/img/devtools-elements.png)
+
+- `<html lang="tr-TR" dir="ltr">` ile dil ve yazı yönü tanımlı. CSS değişkenleri (`--action-primary:#f27a1a` gibi) doğrudan `<html>` üzerinde, yani marka rengi (turuncu) tek yerden yönetiliyor.
+- Sayfa yapısı `<aside>`, `<header>`, `<main>`, `<footer>` gibi anlamlı (semantic) etiketlerle kurulmuş. `aside` üzerinde erişilebilirlik için `aria-label` var.
+- `puzzle-fragment` / `puzzle-dependency` gibi özel özellikler, sitenin parçalı (**micro-frontend**) bir mimariyle yazıldığını düşündürüyor. Bu benim yorumum, kesin bilgi değil.
+- Script'ler arasında `react-19-2-6` görünüyor, yani arayüz React ile çalışıyor.
+
+> Not: Ekran görüntüleri benim 1.1 ve 1.2'deki ölçümümle aynı anda alınmadı. Farklı sayfa, zaman ve önbellek durumu yüzünden sayılar (örneğin 93 istek ile 47 istek) birbirinden farklı çıkabilir.
 
 ## 2. Test: Giriş / Kayıt formu
 
